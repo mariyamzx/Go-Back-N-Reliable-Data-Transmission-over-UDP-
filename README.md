@@ -27,14 +27,14 @@ The system simulates reliable data transfer over an unreliable protocol (UDP) by
 
 .
 ├── client.py # Sender side implementation (GBN logic)
-├── server.py # Receiver side logic (ACK responder)
-├── Header.py # Header structure, checksum handling
-├── report.pdf # Semester project report
-└── README.md # Project documentation
 
-yaml
-Copy
-Edit
+├── server.py # Receiver side logic (ACK responder)
+
+├── Header.py # Header structure, checksum handling
+
+├── report.pdf # Semester project report
+
+└── README.md # Project documentation
 
 ---
 
@@ -43,12 +43,10 @@ Edit
 > Run both client and server in **separate terminals**.
 
 ### 1. Run the server:
-```bash
+
 python server.py
 2. Run the client:
-bash
-Copy
-Edit
+
 python client.py
 The client will start sending 20 packets using the GBN protocol. Some packets and ACKs are intentionally dropped or corrupted to test reliability.
 
