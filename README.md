@@ -25,7 +25,7 @@ The system simulates reliable data transfer over an unreliable protocol (UDP) by
 
 ## 📂 Project Files
 
-.
+
 ├── client.py # Sender side implementation (GBN logic)
 
 ├── server.py # Receiver side logic (ACK responder)
